@@ -1,0 +1,38 @@
+// You need 3 css files. main.css, global.css, destinations.css
+
+* {
+    font-family: Verdana, sans-serif;
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+}
+
+.navBar {
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 3.125rem;
+    padding: 0 1.875rem;
+    margin: 0;
+    background-color: #FFFFFF;
+
+    h3{
+        color: #335576;
+    }
+
+    &-destinationList {
+        display: flex;
+        gap: 1.25rem;
+        list-style: none;
+        padding-left: 0;
+        margin: 0;
+
+        li{
+            align-items: center;
+        }
+    }
+}
+
