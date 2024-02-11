@@ -103,6 +103,7 @@ body {
   border-radius: 5px;
   display: flex;
   flex-direction: column;
+  text-decoration: none;
   border: 1px solid rgba(0, 0, 0, 0.8);
   box-shadow: 0 4px 4px rgba(0, 0, 0, 0.8);
 }
@@ -134,7 +135,7 @@ body {
   flex-direction: row;
   justify-content: space-between;
   background-color: #FEFAF5;
-  padding: 45px 205px;
+  padding: 35px 220px;
 }
 .footer-Contact {
   display: flex;
@@ -150,9 +151,11 @@ body {
   margin-bottom: 10px;
 }
 .footer-Contact p:nth-of-type(1) {
+  font-size: 0.65rem;
   color: #DB7A4E;
 }
 .footer-Contact p:nth-of-type(2) {
+  font-size: 0.85rem;
   color: #335576;
 }
 .footer-Hours {
@@ -169,16 +172,18 @@ body {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  gap: 15px;
+  gap: 20px;
 }
 .footer-Hours-timeContainer div p {
   margin: 0;
   margin-bottom: 10px;
 }
 .footer-Hours-timeContainer div p:nth-child(1) {
+  font-size: 0.65rem;
   color: #DB7A4E;
 }
 .footer-Hours-timeContainer div p:nth-child(2) {
+  font-size: 0.85rem;
   color: #335576;
 }
 .footer-Social {
