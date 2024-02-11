@@ -1,31 +1,96 @@
-* {
-  font-family: Verdana, sans-serif;
-  box-sizing: border-box;
-}
-
-body {
-  margin: 0;
-}
-
-.navBar {
+.heroSection {
   display: flex;
   justify-content: space-between;
-  align-items: center;
-  height: 3.125rem;
-  padding: 0 1.875rem;
-  margin: 0;
-  background-color: #FFFFFF;
+  background-color: #FEFAF5;
+  max-height: 450px;
 }
-.navBar h3 {
+.heroSection-textCard {
+  display: flex;
+  flex-direction: column;
+  margin: 5.3% 5.5%;
+  width: 50%;
+  padding-left: 1%;
+  padding-right: 0;
+  padding-top: 1%;
+  padding-bottom: 4.5%;
+}
+.heroSection-textCard h1 {
+  font-size: 35px;
+  margin-top: 0;
+  margin-bottom: 40px;
   color: #335576;
 }
-.navBar-destinationList {
-  display: flex;
-  gap: 1.25rem;
-  list-style: none;
-  padding-left: 0;
+.heroSection-textCard p {
+  color: #335576;
+  margin-top: 0;
+  margin-bottom: 40px;
+}
+.heroSection-textCard button {
+  background-color: #DB7A4E;
+  color: white;
+  border: none;
+  height: 35px;
+  width: 150px;
+  border-radius: 75px;
   margin: 0;
 }
-.navBar-destinationList li {
-  align-items: center;
+.heroSection-imageCard {
+  width: 50%;
+  text-align: center;
+  padding: 2%;
+}
+.heroSection-imageCard img {
+  max-height: 100%;
+  max-width: 100%;
+}
+
+.recommendation {
+  display: flex;
+  flex-direction: column;
+}
+.recommendation h2 {
+  color: #335576;
+  margin: 0;
+  height: 4.125rem;
+  padding-left: 5rem;
+  padding-top: 1.75rem;
+}
+.recommendation-cardContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.recommendation-cardContainer .travelCard {
+  height: 378px;
+  width: 252px;
+  margin: 20px;
+  margin-bottom: 75px;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  text-decoration: none;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.2);
+}
+.recommendation-cardContainer .travelCard:nth-child(1) {
+  background-image: url("../assets/images/hawaii.jpg");
+  background-size: cover;
+  background-position: center;
+}
+.recommendation-cardContainer .travelCard:nth-child(2) {
+  background-image: url("../assets/images/iceland.jpg");
+  background-size: cover;
+  background-position: center;
+}
+.recommendation-cardContainer .travelCard:nth-child(3) {
+  background-image: url("../assets/images/greece.jpg");
+  background-size: cover;
+  background-position: center;
+}
+.recommendation-cardContainer h3 {
+  font-size: 1.5rem;
+  color: white;
+  text-align: right;
+  padding-right: 10px;
+  margin-top: 130%;
 }/*# sourceMappingURL=main.css.map */

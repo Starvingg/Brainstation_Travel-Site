@@ -1,0 +1,118 @@
+* {
+  font-family: Verdana, sans-serif;
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0 auto;
+  max-width: 1280px;
+  border-left: 3.5px solid black;
+  border-right: 3.5px solid black;
+  border-bottom: 3.5px solid black;
+}
+
+.navBar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 3.4375rem;
+  padding: 0 5rem;
+  margin: 0;
+  background-color: #FFFFFF;
+}
+.navBar h3 {
+  color: #335576;
+}
+.navBar-destinationList {
+  display: flex;
+  gap: 1.25rem;
+  list-style: none;
+  padding-left: 0;
+  margin: 0;
+}
+.navBar-destinationList li {
+  align-items: center;
+}
+.navBar-destinationList li a {
+  text-decoration: none;
+  color: black;
+}
+
+.footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  background-color: #FEFAF5;
+  padding: 35px 220px;
+}
+.footer-Contact {
+  display: flex;
+  flex-direction: column;
+  margin-left: 0;
+  margin-right: 40px;
+}
+.footer-Contact h2 {
+  color: #335576;
+}
+.footer-Contact p {
+  margin: 0;
+  margin-bottom: 10px;
+}
+.footer-Contact p:nth-of-type(1) {
+  font-size: 0.65rem;
+  color: #DB7A4E;
+}
+.footer-Contact p:nth-of-type(2) {
+  font-size: 0.85rem;
+  color: #335576;
+}
+.footer-Hours {
+  display: flex;
+  flex-direction: column;
+  display: inline;
+  margin-left: 40px;
+  margin-right: 40px;
+}
+.footer-Hours h2 {
+  color: #335576;
+}
+.footer-Hours-timeContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 20px;
+}
+.footer-Hours-timeContainer div p {
+  margin: 0;
+  margin-bottom: 10px;
+}
+.footer-Hours-timeContainer div p:nth-child(1) {
+  font-size: 0.65rem;
+  color: #DB7A4E;
+}
+.footer-Hours-timeContainer div p:nth-child(2) {
+  font-size: 0.85rem;
+  color: #335576;
+}
+.footer-Social {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-left: 40px;
+  margin-right: 0;
+}
+.footer-Social h2 {
+  color: #335576;
+}
+.footer-Social-iconContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between; /* Adjusted to space between */
+  align-items: flex-start;
+  width: 125px;
+}
+.footer-Social-iconContainer img {
+  margin-bottom: 10px;
+  height: 25px;
+  width: auto;
+}/*# sourceMappingURL=global.css.map */

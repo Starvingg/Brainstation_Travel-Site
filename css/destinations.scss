@@ -1,0 +1,90 @@
+// You need 3 css files. main.css, global.css, destinations.css
+@use "variables" as *;
+
+// Nav Bar styling in global.css
+// Footer styling in global.css
+
+.hawaiiStyles{
+    background-image: url('/assets/images/hawaii.jpg');
+    background-position: center;
+    background-size: cover;
+    background-position: center;
+}
+
+.icelandStyles{
+    background-image: url('/assets/images/iceland.jpg');
+    background-position: center;
+    background-size: cover;
+    background-position: center;
+}
+
+.greeceStyles{
+    background-image: url('/assets/images/greece.jpg');
+    background-position: center;
+    background-size: cover;
+    background-position: center;
+}
+
+
+.schedule{
+    display: flex;
+    flex-direction: column;
+    height: 650px;
+
+    h1 {
+        font-size: 4rem;
+        color: $color-white;
+        height: 4.125rem;
+        // border: 2px solid black;
+        padding-left: 5rem;
+        padding-top: 1.75rem;
+    }
+
+    &-cardContainer {
+
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+
+        .scheduleCard {
+
+            height: 378px;
+            width: 252px;
+            margin: 20px;
+            margin-bottom: 75px;
+            padding-left: 10px;
+            padding-right: 10px;
+            background-color: white;
+
+            border-radius: 5px;
+
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            // justify-content: center;
+
+            text-decoration: none;
+
+            border: 1px solid rgba(0, 0, 0, 0.2);
+            box-shadow: 0 4px 4px rgba(0, 0, 0, 0.2);
+
+            h3 {
+                text-align: center;
+                border-bottom: 3px solid black;
+                width: 100%;
+            }
+
+            div {
+                height: 45px;
+                width: 220px;
+                background-color: $color-offWhite;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                text-align: center;
+                margin: 10px 0px;
+            }
+        }
+    
+    }
+}
