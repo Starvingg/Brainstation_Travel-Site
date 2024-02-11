@@ -6,7 +6,9 @@
 body {
   margin: 0 auto;
   max-width: 1280px;
-  border: 3px dashed black;
+  border-left: 3.5px solid black;
+  border-right: 3.5px solid black;
+  border-bottom: 3.5px solid black;
 }
 
 .navBar {
@@ -104,8 +106,8 @@ body {
   display: flex;
   flex-direction: column;
   text-decoration: none;
-  border: 1px solid rgba(0, 0, 0, 0.8);
-  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.8);
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.2);
 }
 .recommendation-cardContainer .travelCard:nth-child(1) {
   background-image: url("../assets/images/hawaii.jpg");
