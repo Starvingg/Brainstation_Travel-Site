@@ -4,7 +4,9 @@
 }
 
 body {
-  margin: 0;
+  margin: 0 auto;
+  max-width: 1280px;
+  border: 3px dashed black;
 }
 
 .navBar {
@@ -12,7 +14,7 @@ body {
   justify-content: space-between;
   align-items: center;
   height: 3.125rem;
-  padding: 0 1.875rem;
+  padding: 0 5rem;
   margin: 0;
   background-color: #FFFFFF;
 }
@@ -28,4 +30,63 @@ body {
 }
 .navBar-destinationList li {
   align-items: center;
+}
+
+.heroSection {
+  display: flex;
+  justify-content: space-between;
+  background-color: #FEFAF5;
+  max-height: 450px;
+  border: 2px solid red;
+}
+.heroSection-textCard {
+  display: flex;
+  flex-direction: column;
+  margin: 5.3% 5.5%;
+  width: 50%;
+  padding-left: 1%;
+  padding-right: 0;
+  padding-top: 1%;
+  padding-bottom: 4.5%;
+}
+.heroSection-textCard h1 {
+  font-size: 35px;
+  margin-top: 0;
+  margin-bottom: 40px;
+  color: #335576;
+}
+.heroSection-textCard p {
+  color: #335576;
+  margin-top: 0;
+  margin-bottom: 40px;
+}
+.heroSection-textCard button {
+  background-color: #DB7A4E;
+  color: white;
+  border: none;
+  height: 35px;
+  width: 150px;
+  border-radius: 75px;
+  margin: 0;
+}
+.heroSection-imageCard {
+  width: 50%;
+  text-align: center;
+  padding: 2%;
+}
+.heroSection-imageCard img {
+  max-height: 100%;
+  max-width: 100%;
+}
+
+.recommendation {
+  display: flex;
+  flex-direction: column;
+}
+.recommendation h2 {
+  margin: 0;
+  height: 4.125rem;
+  border: 2px solid black;
+  padding-left: 5rem;
+  padding-top: 1.75rem;
 }/*# sourceMappingURL=main.css.map */

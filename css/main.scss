@@ -1,4 +1,5 @@
 // You need 3 css files. main.css, global.css, destinations.css
+@use "variables" as *;
 
 * {
     font-family: Verdana, sans-serif;
@@ -6,7 +7,9 @@
 }
 
 body {
-    margin: 0;
+    margin: 0 auto; // Add 'auto' to horizontally center the body
+    max-width: 1280px;
+    border: 3px dashed black;
 }
 
 .navBar {
@@ -15,12 +18,12 @@ body {
     justify-content: space-between;
     align-items: center;
     height: 3.125rem;
-    padding: 0 1.875rem;
+    padding: 0 5rem;
     margin: 0;
-    background-color: #FFFFFF;
+    background-color: $color-white;
 
     h3{
-        color: #335576;
+        color: $color-blue;
     }
 
     &-destinationList {
@@ -36,3 +39,72 @@ body {
     }
 }
 
+.heroSection {
+    display: flex;
+    justify-content: space-between;
+    background-color: $color-offWhite;
+    max-height: 450px;
+    border: 2px solid red;
+
+    &-textCard {
+        display: flex;
+        flex-direction: column;
+        margin: 5.3% 5.5%;
+        width: 50%;
+        padding-left: 1%;
+        padding-right: 0;
+        padding-top: 1%;
+        padding-bottom: 4.5%;
+
+        h1 {
+            font-size: 35px;
+            margin-top: 0;
+            margin-bottom: 40px;
+            color: $color-blue;
+        }
+
+        p {
+            color: $color-blue;
+            margin-top: 0;
+            margin-bottom: 40px;
+        }
+
+        button {
+            background-color: $color-orange;
+            color: white;
+            border: none;
+            height: 35px;
+            width: 150px;
+            border-radius: 75px;
+            margin: 0;
+        }
+
+    }
+    
+    &-imageCard {
+
+        width: 50%;
+        text-align: center;
+        padding: 2%;
+
+        img{
+            max-height: 100%;
+            max-width: 100%;
+        }
+    }
+}
+
+.recommendation{
+        display: flex;
+        flex-direction: column;
+
+    h2 {
+        margin: 0;
+        height: 4.125rem;
+        border: 2px solid black;
+        padding-left: 5rem;
+        padding-top: 1.75rem;
+    }
+
+
+}
