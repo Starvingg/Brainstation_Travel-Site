@@ -1,0 +1,53 @@
+.schedule {
+  display: flex;
+  flex-direction: column;
+  max-width: 1280px;
+  max-height: 650px;
+}
+.schedule h2 {
+  color: #335576;
+  margin: 0;
+  height: 4.125rem;
+  padding-left: 5rem;
+  padding-top: 1.75rem;
+}
+.schedule-cardContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.schedule-cardContainer .scheduleCard {
+  height: 378px;
+  width: 252px;
+  border: 2px solid red;
+  margin: 20px;
+  margin-bottom: 75px;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  text-decoration: none;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.2);
+}
+.schedule-cardContainer .scheduleCard:nth-child(1) {
+  background-image: url("../assets/images/hawaii.jpg");
+  background-size: cover;
+  background-position: center;
+}
+.schedule-cardContainer .scheduleCard:nth-child(2) {
+  background-image: url("../assets/images/iceland.jpg");
+  background-size: cover;
+  background-position: center;
+}
+.schedule-cardContainer .scheduleCard:nth-child(3) {
+  background-image: url("../assets/images/greece.jpg");
+  background-size: cover;
+  background-position: center;
+}
+.schedule-cardContainer h3 {
+  font-size: 1.5rem;
+  color: white;
+  text-align: right;
+  padding-right: 10px;
+  margin-top: 130%;
+}/*# sourceMappingURL=destinations.css.map */
