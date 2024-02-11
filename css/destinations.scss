@@ -4,14 +4,32 @@
 // Nav Bar styling in global.css
 // Footer styling in global.css
 
-.schedule{
-    display: flex;
-    flex-direction: column;
-    height: 650px;
+.hawaiiStyles{
     background-image: url('/assets/images/hawaii.jpg');
     background-position: center;
     background-size: cover;
     background-position: center;
+}
+
+.icelandStyles{
+    background-image: url('/assets/images/iceland.jpg');
+    background-position: center;
+    background-size: cover;
+    background-position: center;
+}
+
+.greeceStyles{
+    background-image: url('/assets/images/greece.jpg');
+    background-position: center;
+    background-size: cover;
+    background-position: center;
+}
+
+
+.schedule{
+    display: flex;
+    flex-direction: column;
+    height: 650px;
 
     h1 {
         font-size: 4rem;
