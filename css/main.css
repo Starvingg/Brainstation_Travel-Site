@@ -33,6 +33,10 @@
   width: 150px;
   border-radius: 75px;
   margin: 0;
+  transition: box-shadow 0.3s ease;
+}
+.heroSection-textCard button:hover {
+  box-shadow: 0 0 10px #DB7A4E;
 }
 .heroSection-imageCard {
   width: 50%;
@@ -71,6 +75,10 @@
   text-decoration: none;
   border: 1px solid rgba(0, 0, 0, 0.2);
   box-shadow: 0 4px 4px rgba(0, 0, 0, 0.2);
+  transition: box-shadow 0.3s ease;
+}
+.recommendation-cardContainer .travelCard:hover {
+  box-shadow: 0 0 20px black;
 }
 .recommendation-cardContainer .travelCard:nth-child(1) {
   background-image: url("../assets/images/hawaii.jpg");

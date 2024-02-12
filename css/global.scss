@@ -13,6 +13,16 @@ body {
     border-bottom: 3.5px solid black;
 }
 
+
+.navBarButton {
+    border-bottom: 3px solid transparent;
+    transition: border-bottom 0.3s ease;
+
+    &:hover {
+        border-bottom: 3px solid #DB7A4E;
+    }
+}
+
 .navBar {
 
     display: flex;
